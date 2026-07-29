@@ -1,0 +1,223 @@
+{
+  "project": {
+    "id": "4566206088345724291",
+    "name": "136SapphireLouse",
+    "title": "Commerce Cohort 1 project",
+    "org": {
+      "id": "3967923",
+      "name": "CommerceCohort1",
+      "ims_org_id": "B18B22BA6912285D0A495C3C@AdobeOrg",
+      "details": {
+        "services": [
+          {
+            "name": "Adobe Express Embed SDK",
+            "code": "CCEmbedCompanionAPI",
+            "type": "adobeid"
+          },
+          {
+            "name": "Adobe Fusion",
+            "code": "Fusion-API",
+            "type": "adobeid"
+          },
+          {
+            "name": "Adobe Commerce as a Cloud Service",
+            "code": "ACCS-REST-API",
+            "type": "adobeid"
+          },
+          {
+            "name": "Lightroom Services",
+            "code": "LightroomPartnersSDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "API Mesh for Adobe Developer App Builder",
+            "code": "GraphQLServiceSDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "AEM Content Delivery Network (CDN) API (beta)",
+            "code": "AEM-CDN-API",
+            "type": "adobeid"
+          },
+          {
+            "name": "Frame.io API",
+            "code": "FrameioAPISDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "PDF Embed API",
+            "code": "ViewSDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "Adobe Commerce with Adobe ID",
+            "code": "AdobeCommerceWithAdobeID",
+            "type": "adobeid"
+          },
+          {
+            "name": "Asset Compute",
+            "code": "AssetComputeSDK",
+            "type": "entp"
+          },
+          {
+            "name": "I/O Management API",
+            "code": "AdobeIOManagementAPISDK",
+            "type": "entp"
+          },
+          {
+            "name": "Experience Platform API",
+            "code": "McDataServicesSdk",
+            "type": "entp"
+          },
+          {
+            "name": "Smart Content",
+            "code": "MCSmartContentServicesSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Remove Background - Firefly and Creative Cloud Automation",
+            "code": "ImageCutoutV2SDK",
+            "type": "entp"
+          },
+          {
+            "name": "Primetime Ad Insertion",
+            "code": "Ad Config Service",
+            "type": "entp"
+          },
+          {
+            "name": "Lightroom API - Firefly Services",
+            "code": "LightroomCCESDK",
+            "type": "entp"
+          },
+          {
+            "name": "Edge Delivery Services",
+            "code": "nogw-4011f358-2edb-4b01-acb8-3c84e0cbb299",
+            "type": "entp"
+          },
+          {
+            "name": "App Builder Data Services",
+            "code": "AppBuilderDataServicesSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Experience Cloud Setup Automation",
+            "code": "DxSetupAutomationSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Photoshop API - Firefly Services",
+            "code": "PhotoshopCCESDK",
+            "type": "entp"
+          },
+          {
+            "name": "User Management API",
+            "code": "UserMgmtSDK",
+            "type": "entp"
+          },
+          {
+            "name": "I/O Events",
+            "code": "CloudIntegrationSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Commerce as a Cloud Service",
+            "code": "ACCS-REST-API",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Commerce Optimizer Ingestion",
+            "code": "ACO-Ingestion",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Commerce Optimizer Admin",
+            "code": "ACO-Admin",
+            "type": "entp"
+          },
+          {
+            "name": "Cloud Manager",
+            "code": "CloudManagerSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Express Review API",
+            "code": "ExpressReviewService",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Status API",
+            "code": "StatusAPISDK",
+            "type": "entp"
+          },
+          {
+            "name": "Places",
+            "code": "McPlacesSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Globalization Content Service",
+            "code": "gcs-partner",
+            "type": "entp"
+          },
+          {
+            "name": "AEM Content Delivery Network (CDN) API (beta)",
+            "code": "AEM-CDN-API",
+            "type": "entp"
+          },
+          {
+            "name": "Assurance API",
+            "code": "Griffon - Graffias",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe I/O Events for Adobe Commerce",
+            "code": "commerceeventing",
+            "type": "entp"
+          }
+        ]
+      }
+    },
+    "workspace": {
+      "id": "4566206088345765295",
+      "name": "Stage",
+      "title": "Stage",
+      "action_url": "https://3967923-136sapphirelouse-stage.adobeioruntime.net",
+      "app_url": "https://3967923-136sapphirelouse-stage.adobeio-static.net",
+      "details": {
+        "credentials": [
+          {
+            "id": "1012424",
+            "name": "Credential_in_Commerce_Cohort_1_project_-_Stage",
+            "integration_type": "oauth_server_to_server"
+          }
+        ],
+        "services": [
+          {
+            "code": "UserMgmtSDK",
+            "name": "User Management API"
+          },
+          {
+            "code": "ACCS-REST-API",
+            "name": "Adobe Commerce as a Cloud Service"
+          },
+          {
+            "code": "AdobeIOManagementAPISDK",
+            "name": "I/O Management API"
+          },
+          {
+            "code": "CloudIntegrationSDK",
+            "name": "I/O Events"
+          },
+          {
+            "code": "commerceeventing",
+            "name": "Adobe I/O Events for Adobe Commerce"
+          }
+        ],
+        "events": {
+          "registrations": []
+        },
+        "mesh": {}
+      }
+    }
+  }
+}
