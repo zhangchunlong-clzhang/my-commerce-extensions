@@ -1,17 +1,5 @@
 {
-    "meshConfig": {
-      "corsConfiguration": {
-      "enabled": true,
-      "allowedOrigins": [
-        "https://main--my-commerce-storefront--zhangchunlong-clzhang.aem.live",
-        "https://main--my-commerce-storefront--zhangchunlong-clzhang.aem.page",
-        "http:localhost:3000"
-      ],
-      "allowedMethods": ["GET", "POST", "OPTIONS"],
-      "allowedHeaders": ["Content-Type", "Authorization", "x-gw-ims-org-id", "x-correlation-id"],
-      "exposedHeaders": [],
-      "maxAge": 600
-    },
+  "meshConfig": {
     "sources": [
       {
         "name": "Commerce",
