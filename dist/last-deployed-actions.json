@@ -1,11 +1,13 @@
 {
-  "app-management/__secured_config": "812592459b771b314760cf2eaa1d2bae92ead4e132fa4e5735e58135e94987fb",
-  "app-management/__secured_scope-tree": "7001fba892a2c8549306f43c9193005a4860373dfaafbc87113fbe1c18398dd7",
+  "app-management/__secured_config": "815b84d42f5179677f7ed9a2f82e63a487a7001e5d15bd1628428fa34d9361eb",
+  "app-management/__secured_scope-tree": "7619886e7c9092ba53e56a0256fd9b3e266bfb199323a247b0e10980bdab9994",
   "app-management/config": "3088ba2eebf78eee5e0367787e775489017821dd134d742d8156d281ea5f0dcb",
   "app-management/scope-tree": "29feba1fb10cd300b601f87edbc1bbd0d6d48877c2b768ff3ed6c32f82119b6d",
-  "app-management/product-enrichment": "58a45404dae0bd8e672bfb804b59379024cc2aea1f68be557fc7b8c23a4373ed",
-  "app-management/__secured_app-config": "1ae2727d712c88febf8c3a5a2f6cc8869a92e44f8566c25fb51cb04713be7e84",
-  "app-management/__secured_installation": "b33d792b787e86a0ea843778f7677f59488f5641b5ce7f22beae28f1bf0a3eb2",
+  "app-management/product-enrichment": "4292654714905580eca42bc3cf40b65a4fe7b24cd668cb8cb4022d844cf2411b",
+  "app-management/__secured_app-config": "4fe2f91a3ac40f320b76f81256f68c8d7acef8a82dca6c0dffade8b5b998508d",
+  "app-management/__secured_installation": "22bf0a17516bf3b2a3edfb69c9815e3fe0a0f3fd8781479ff0935703dabe6ff5",
   "app-management/app-config": "1aae1338af86a359e226fa6c6b13633b7f0997d13769273107249fcccabee339",
-  "app-management/installation": "8872f3be8ba106e10f4042c0df6a6d3d03a0d1a85f08e292dc8f8d68715ac868"
+  "app-management/installation": "8872f3be8ba106e10f4042c0df6a6d3d03a0d1a85f08e292dc8f8d68715ac868",
+  "app-management/order-event-consumer": "252949f83caa464009c0d565d3520646d5359a22f0c8e0b33a2ac1da4444cba8",
+  "app-management/validate-product": "6b5f791dfb5a2340d5b79abd4b51fc2ad32b0ad2cdace57324d9fa1dca5d1848"
 }
