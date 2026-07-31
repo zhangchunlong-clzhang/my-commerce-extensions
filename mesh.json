@@ -36,6 +36,12 @@
           }
         ]
       }
-    ]
+    ],
+    "responseConfig": {
+      "CORS": {
+        "origin": "*",
+        "methods": ["GET", "POST"]
+      }
+    }
   }
 }
