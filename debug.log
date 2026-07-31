@@ -1,0 +1,25 @@
+2026-07-30T06:43:25.304Z [@adobe/aio-lib-env] debug: supported envs: ["prod","stage"]
+2026-07-30T06:43:25.305Z [@adobe/aio-lib-env] debug: default env: prod
+2026-07-30T06:43:25.305Z [@adobe/aio-lib-env] debug: config key to check for env: cli.env
+2026-07-30T06:43:25.305Z [@adobe/aio-lib-env] debug: config key value set for env: undefined
+2026-07-30T06:43:26.473Z [@adobe/aio-cli-plugin-cloudmanager:migrate-jwt-context-hook] debug: start jwt-auth migration hook
+2026-07-30T06:43:26.474Z [@adobe/aio-cli-plugin-cloudmanager:migrate-jwt-context-hook] debug: end jwt-auth migration hook
+2026-07-30T06:43:27.128Z [@adobe/aio-lib-env] debug: supported envs: ["prod","stage"]
+2026-07-30T06:43:27.128Z [@adobe/aio-lib-env] debug: default env: prod
+2026-07-30T06:43:27.128Z [@adobe/aio-lib-env] debug: config key to check for env: cli.env
+2026-07-30T06:43:27.128Z [@adobe/aio-lib-env] debug: config key value set for env: undefined
+2026-07-30T06:43:27.128Z [@adobe/aio-lib-env] debug: supported envs: ["prod","stage"]
+2026-07-30T06:43:27.128Z [@adobe/aio-lib-env] debug: default env: prod
+2026-07-30T06:43:27.128Z [@adobe/aio-lib-env] debug: config key to check for env: cli.env
+2026-07-30T06:43:27.129Z [@adobe/aio-lib-env] debug: config key value set for env: undefined
+ℹ Generating configuration schema...
+✔ Generated configuration-schema.json
+◐ Generating runtime actions...
+✔ Generated 2 action(s)
+  ├─ src/commerce-configuration-1/.generated/actions/app-management/config.js
+  └─ src/commerce-configuration-1/.generated/actions/app-management/scope-tree.js
+
+2026-07-30T06:43:27.788Z [@adobe/aio-lib-env] debug: supported envs: ["prod","stage"]
+2026-07-30T06:43:27.788Z [@adobe/aio-lib-env] debug: default env: prod
+2026-07-30T06:43:27.788Z [@adobe/aio-lib-env] debug: config key to check for env: cli.env
+2026-07-30T06:43:27.789Z [@adobe/aio-lib-env] debug: config key value set for env: undefined
