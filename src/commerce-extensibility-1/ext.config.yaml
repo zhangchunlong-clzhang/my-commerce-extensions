@@ -9,46 +9,11 @@ operations:
       impl: app-management/app-config
     - type: action
       impl: app-management/installation
-    - type: action
-      impl: app-management/product-enrichment
-    - type: action
-      impl: app-management/order-event-consumer
-    - type: action
-      impl: app-management/validate-product
-    - type: action
-      impl: app-management/get-enriched-orders
 runtimeManifest:
   packages:
-    # This package definition is auto-generated. Do not remove or manually edit.
-    app-management:
+    course-labs:
       license: Apache-2.0
       actions:
-        app-config:
-          function: .generated/actions/app-management/app-config.js
-          web: yes
-          runtime: nodejs:22
-          inputs:
-            LOG_LEVEL: $LOG_LEVEL
-          annotations:
-            require-adobe-auth: true
-            final: true
-        installation:
-          function: .generated/actions/app-management/installation.js
-          web: yes
-          runtime: nodejs:22
-          inputs:
-            LOG_LEVEL: $LOG_LEVEL
-            AIO_COMMERCE_AUTH_IMS_CLIENT_ID: $AIO_COMMERCE_AUTH_IMS_CLIENT_ID
-            AIO_COMMERCE_AUTH_IMS_CLIENT_SECRETS: $AIO_COMMERCE_AUTH_IMS_CLIENT_SECRETS
-            AIO_COMMERCE_AUTH_IMS_TECHNICAL_ACCOUNT_ID: $AIO_COMMERCE_AUTH_IMS_TECHNICAL_ACCOUNT_ID
-            AIO_COMMERCE_AUTH_IMS_TECHNICAL_ACCOUNT_EMAIL: $AIO_COMMERCE_AUTH_IMS_TECHNICAL_ACCOUNT_EMAIL
-            AIO_COMMERCE_AUTH_IMS_ORG_ID: $AIO_COMMERCE_AUTH_IMS_ORG_ID
-            AIO_COMMERCE_AUTH_IMS_SCOPES: $AIO_COMMERCE_AUTH_IMS_SCOPES
-          annotations:
-            require-adobe-auth: true
-            final: true
-          limits:
-            timeout: 600000
         product-enrichment:
           function: actions/labs/product-enrichment/index.js
           web: 'yes'
@@ -108,3 +73,33 @@ runtimeManifest:
           annotations:
             require-adobe-auth: false
             final: true
+    # This package definition is auto-generated. Do not remove or manually edit.
+    app-management:
+      license: Apache-2.0
+      actions:
+        app-config:
+          function: .generated/actions/app-management/app-config.js
+          web: yes
+          runtime: nodejs:22
+          inputs:
+            LOG_LEVEL: $LOG_LEVEL
+          annotations:
+            require-adobe-auth: true
+            final: true
+        installation:
+          function: .generated/actions/app-management/installation.js
+          web: yes
+          runtime: nodejs:22
+          inputs:
+            LOG_LEVEL: $LOG_LEVEL
+            AIO_COMMERCE_AUTH_IMS_CLIENT_ID: $AIO_COMMERCE_AUTH_IMS_CLIENT_ID
+            AIO_COMMERCE_AUTH_IMS_CLIENT_SECRETS: $AIO_COMMERCE_AUTH_IMS_CLIENT_SECRETS
+            AIO_COMMERCE_AUTH_IMS_TECHNICAL_ACCOUNT_ID: $AIO_COMMERCE_AUTH_IMS_TECHNICAL_ACCOUNT_ID
+            AIO_COMMERCE_AUTH_IMS_TECHNICAL_ACCOUNT_EMAIL: $AIO_COMMERCE_AUTH_IMS_TECHNICAL_ACCOUNT_EMAIL
+            AIO_COMMERCE_AUTH_IMS_ORG_ID: $AIO_COMMERCE_AUTH_IMS_ORG_ID
+            AIO_COMMERCE_AUTH_IMS_SCOPES: $AIO_COMMERCE_AUTH_IMS_SCOPES
+          annotations:
+            require-adobe-auth: true
+            final: true
+          limits:
+            timeout: 600000

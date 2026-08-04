@@ -19,7 +19,7 @@ import {
 } from '@adobe/react-spectrum';
 
 // Replace <namespace> with your I/O Runtime namespace (aio app use / Developer Console).
-const ACTION_URL = 'https://3967923-136sapphirelouse-stage.adobeioruntime.net/api/v1/web/app-management/get-enriched-orders';
+const ACTION_URL = 'https://3967923-136sapphirelouse-stage.adobeioruntime.net/api/v1/web/course-labs/get-enriched-orders';
 
 export function MainPage () {
   const [loading, setLoading] = useState(true);
