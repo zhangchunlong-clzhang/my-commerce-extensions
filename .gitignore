@@ -1,7 +1,6 @@
 node_modules
-.aws.tmp.creds.json
-.aws.tmp.creds.json
 .parcel-cache/data.mdb
 /.parcel-cache
 .aws.tmp.creds.json
 /dist
+.env
